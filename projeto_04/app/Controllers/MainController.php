@@ -6,16 +6,11 @@ class MainController extends BaseController
 {
     public function index()
     {
-        echo 'Index';
+        echo 'Estou no método index';
     }
 
-    public function pagina_1()
+    public function falar($palavra)
     {
-        echo 'Página 1';
-    }
-
-    public function pagina_2()
-    {
-        echo 'Página 2';
+        echo 'Estou a falar com o '.ucfirst($palavra);
     }
 }

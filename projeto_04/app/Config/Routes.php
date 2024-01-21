@@ -9,4 +9,5 @@ use CodeIgniter\Router\RouteCollection;
 // http verbes: get, post, put, delete, options, patch, head
 
 // Default Controller: Main
-$routes->get('/', 'MainControllerindex', []);
+$routes->get('/', 'MainController::index', []);
+$routes->get('falar/(:any)', 'MainController::falar/$1', []);
