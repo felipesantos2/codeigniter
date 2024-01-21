@@ -13,4 +13,21 @@ class MainController extends BaseController
     {
         echo 'Estou a falar com o '.ucfirst($palavra);
     }
+
+    public function ph_any($valor1, $valor2)
+    {
+        echo $valor1.' '.$valor2;
+    }
+
+    public function ph_segment($valor1)
+    {
+        echo $valor1;
+    }
+
+    public function ph_num($valor1, $valor2)
+    {
+        echo $valor1;
+        echo '<br>';
+        echo $valor2;
+    }
 }
