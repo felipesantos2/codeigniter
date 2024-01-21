@@ -7,6 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 
 // http verbes: get, post, put, delete, options, patch, head
-$routes->get('/', 'Home::index');
 
-$routes->post('/contact', 'Home::index');
+$routes->get('/', 'Home::index');
