@@ -25,4 +25,6 @@ $routes->get('outro', 'TalkController::other'); // route with default value
 // $routes->view('/', 'index');
 // $routes->view('pagina1/(:any)', 'index');
 
-$routes->view('/', 'MainController::index');
+$routes->get('/', 'MainController::index');
+$routes->get('/about', 'MainController::about');
+$routes->get('/services', 'MainController::services');
