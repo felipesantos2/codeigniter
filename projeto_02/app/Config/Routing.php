@@ -14,7 +14,7 @@ namespace Config;
 use CodeIgniter\Config\Routing as BaseRouting;
 
 /**
- * Routing configuration.
+ * Routing configuration
  */
 class Routing extends BaseRouting
 {
@@ -26,7 +26,7 @@ class Routing extends BaseRouting
      * Default: APPPATH . 'Config/Routes.php'
      */
     public array $routeFiles = [
-        APPPATH.'Config/Routes.php',
+        APPPATH . 'Config/Routes.php',
     ];
 
     /**
@@ -64,7 +64,7 @@ class Routing extends BaseRouting
     /**
      * Sets the class/method that should be called if routing doesn't
      * find a match. It can be either a closure or the controller/method
-     * name exactly like a route is defined: Users::index.
+     * name exactly like a route is defined: Users::index
      *
      * This setting is passed to the Router class and handled there.
      *
