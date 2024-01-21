@@ -30,4 +30,18 @@ class MainController extends BaseController
         echo '<br>';
         echo $valor2;
     }
+
+    public function ph_alpha($valor1, $valor2)
+    {
+        echo $valor1;
+        echo '<br>';
+        echo $valor2;
+    }
+
+    public function ph_alphanum($valor1, $valor2)
+    {
+        echo $valor1;
+        echo '<br>';
+        echo $valor2;
+    }
 }
