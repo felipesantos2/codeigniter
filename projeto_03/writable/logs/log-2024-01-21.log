@@ -67,3 +67,11 @@ in SYSTEMPATH\Router\RouteCollection.php on line 1006.
  2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\laragon\\www\\codeigniter\\projeto_03\\app\\Config\\Routes.php')
  3 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
  4 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-01-21 18:48:12 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::get, post()
+in SYSTEMPATH\Router\RouteCollection.php on line 1006.
+ 1 APPPATH\Config\Routes.php(20): CodeIgniter\Router\RouteCollection->match([...], '/login', 'Main::formulario_login')
+ 2 SYSTEMPATH\Router\RouteCollection.php(344): require('C:\\laragon\\www\\codeigniter\\projeto_03\\app\\Config\\Routes.php')
+ 3 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
