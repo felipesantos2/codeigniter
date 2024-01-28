@@ -54,11 +54,14 @@
                         <img class="img-fluid" src="<?php echo base_url('assets/images/main_burger_01.png'); ?>" alt="the best burguer in the world!">
                     </div>
                     <div class="text-center">
-                        <h3 class="mb-3">
+                        <h3 class="mb-5">
                             Deliciosos e com grandes descontos!
                         </h3>
                         <a class="btn-products" href="<?php echo site_url('/products'); ?>">Produtos</a>
                     </div>
+                </div>
+                <div class="col text-center p-5">
+                    <img class="img-fluid" src="<?php echo base_url('assets/images/main_burger_02.png'); ?>" alt="the best burguer in the world!">
                 </div>
             </div>
         </section>

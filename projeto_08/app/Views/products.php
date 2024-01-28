@@ -45,9 +45,79 @@
         </div>
     </nav>
 
-    <h1>
-        Produtos
-    </h1>
+    <!-- main -->
+    <main>
+        <section class="container">
+            <div class="col">
+                <div class="row"> <!-- burges -->
+                    <!-- burger 01 -->
+                    <div class="row mb-5 product-box">
+                        <div class="col-5 text-center">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/burger_01.png'); ?>" alt="Burger 01">
+                        </div>
+                        <div class="col-7 p-5">
+                            <h1 class="mb-3 product-text-color">Burger 01</h1>
+                            <p class="mb-2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias minus perferendis esse facere qui reprehenderit, eius tempore quas dolor. Debitis velit, obcaecati amet magnam ea inventore totam sed dignissimos nisi?
+                                Neque, rerum amet. Dolorem alias excepturi, voluptatibus est magnam soluta quasi repudiandae ducimus asperiores, non expedita sit corrupti similique consectetur! Exercitationem recusandae, qui sed dicta quas illo excepturi sequi nihil.
+                            </p>
+                            <h2 class="mt-3 product-text-color">
+                                R$ 15,00
+                            </h2>
+                        </div>
+                    </div>
+                    <!-- burger 02 -->
+                    <div class="row mb-5 product-box">
+                        <div class="col-7 p-5">
+                            <h1 class="mb-3 product-text-color">Burger 02</h1>
+                            <p class="mb-2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias minus perferendis esse facere qui reprehenderit, eius tempore quas dolor. Debitis velit, obcaecati amet magnam ea inventore totam sed dignissimos nisi?
+                                Neque, rerum amet. Dolorem alias excepturi, voluptatibus est magnam soluta quasi repudiandae ducimus asperiores, non expedita sit corrupti similique consectetur! Exercitationem recusandae, qui sed dicta quas illo excepturi sequi nihil.
+                            </p>
+                            <h2 class="mt-3 product-text-color">
+                                R$ 15,00
+                            </h2>
+                        </div>
+                        <div class="col-5 text-center">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/burger_02.png'); ?>" alt="Burger 01">
+                        </div>
+                    </div>
+                    <!-- burger 03 -->
+                    <div class="row mb-5 product-box">
+                        <div class="col-5 text-center">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/burger_03.png'); ?>" alt="Burger 01">
+                        </div>
+                        <div class="col-7 p-5">
+                            <h1 class="mb-3 product-text-color">Burger 03</h1>
+                            <p class="mb-2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias minus perferendis esse facere qui reprehenderit, eius tempore quas dolor. Debitis velit, obcaecati amet magnam ea inventore totam sed dignissimos nisi?
+                                Neque, rerum amet. Dolorem alias excepturi, voluptatibus est magnam soluta quasi repudiandae ducimus asperiores, non expedita sit corrupti similique consectetur! Exercitationem recusandae, qui sed dicta quas illo excepturi sequi nihil.
+                            </p>
+                            <h2 class="mt-3 product-text-color">
+                                R$ 15,00
+                            </h2>
+                        </div>
+                    </div>
+                    <!-- burger 04 -->
+                    <div class="row mb-5 product-box">
+                        <div class="col-7 p-5">
+                            <h1 class="mb-3 product-text-color">Burger 04</h1>
+                            <p class="mb-2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias minus perferendis esse facere qui reprehenderit, eius tempore quas dolor. Debitis velit, obcaecati amet magnam ea inventore totam sed dignissimos nisi?
+                                Neque, rerum amet. Dolorem alias excepturi, voluptatibus est magnam soluta quasi repudiandae ducimus asperiores, non expedita sit corrupti similique consectetur! Exercitationem recusandae, qui sed dicta quas illo excepturi sequi nihil.
+                            </p>
+                            <h2 class="mt-3 product-text-color">
+                                R$ 15,00
+                            </h2>
+                        </div>
+                        <div class="col-5 text-center">
+                            <img class="img-fluid" src="<?php echo base_url('assets/images/burger_04.png'); ?>" alt="Burger 01">
+                        </div>
+                    </div>
+                </div> <!-- /burges-->
+            </div>
+        </section>
+    </main>
 
     <!-- social networks -->
     <footer class="container-fluid">

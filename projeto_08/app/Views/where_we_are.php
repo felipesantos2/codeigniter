@@ -45,9 +45,51 @@
         </div>
     </nav>
 
-    <h1>
-        Onde Estamos
-    </h1>
+    <!-- main -->
+    <main>
+        <section class="container product-box">
+            <div class="row">
+                <div class="col-5 text-center mb-2">
+                    <img  class="img-fluid rounded-4" src="<?php echo base_url('assets/images/room.jpg'); ?>" alt="Our room">
+                </div>
+                <div class="col-6">
+
+                    <p class="where-we-are-title mb-0">
+                        CIGBurger
+                    </p>
+                    <p class="where-we-are-subtitle">
+                        Rua des hamburgeres, 123 Paris
+                    </p>
+                    <p class="mb-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quibusdam illo suscipit quidem repudiandae, perspiciatis iste doloremque. Impedit porro eos quisquam, earum ipsum praesentium iusto a odit ducimus et velit?
+                    </p>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="<?php echo base_url('assets/images/icon_phone.png'); ?>" alt="Phone">
+                        <p class="where-we-are-subtitle ms-3">
+                            <a class="nav-link" href="tel:+559999999999"> (33) 9 9999-9999 </a>
+                        </p>
+                    </div>
+
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="<?php echo base_url('assets/images/icon_email.png'); ?>" alt="Email">
+                        <p class="where-we-are-subtitle ms-3">
+                            <a class="nav-link" href="mailto:">cigbuger@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- map -->
+        <section class="container product-box py-5">
+            <div class="col">
+                <div class="col text-center">
+                    <img class="img-fluid rounded-4" src="<?php echo base_url('assets/images/map.jpg'); ?>" alt="map">
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- social networks -->
     <footer class="container-fluid">

@@ -38,7 +38,34 @@ body {
     text-decoration: none;
 }
 
-.btn-products:hover  {
+.btn-products:hover {
     background: linear-gradient(to bottom, #FFF6C3, #FFC96C);
     text-decoration: none;
+}
+
+.product-box {
+    background-color: #2F2B24;
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* box-shadow: 1px 1px 3px #FFC926; */
+    /* cursor: pointer; */
+    transition: all;
+}
+
+
+.product-text-color {
+    color: #FFC926;
+}
+
+.where-we-are-title {
+    color: #FFC926;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.where-we-are-subtitle {
+    color: #FFC926;
+    font-size: 2rem;
+
 }

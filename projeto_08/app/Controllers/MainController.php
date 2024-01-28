@@ -19,6 +19,6 @@ class MainController extends BaseController
     // return view with title
     public function where_we_are()
     {
-        return view('products', ['title' => 'Where We Are']);
+        return view('where_we_are', ['title' => 'Where We Are']);
     }
 }
