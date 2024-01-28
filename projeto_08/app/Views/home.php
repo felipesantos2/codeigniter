@@ -11,7 +11,9 @@
 
     <meta http-equiv="refresh" content="25">
 
-    <title>CIGBurguer</title>
+    <title>
+        <?php echo esc($title); ?>
+    </title>
 
     <!-- favicon -->
     <link rel="shortcut icon" href="<?php echo base_url('assets/images/logo.png'); ?>" type="image/png">
@@ -44,6 +46,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- main -->
     <main class="my-4 py-2">
@@ -87,7 +90,8 @@
         <div class="row mt-4">
             <div class="col text-center">
                 <h6>
-                    Todos os Direitos Reservados &copy; <?php echo date('Y'); ?>
+                    Todos os Direitos Reservados &copy; 
+                    <?php echo date('Y').' - '.app_timezone().'-3'; ?>
                 </h6>
             </div>
         </div>
