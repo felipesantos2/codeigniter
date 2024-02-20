@@ -19,19 +19,21 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>">
     <!-- app.css -->
     <link rel="stylesheet" href="<?php echo base_url('assets/css/app.css'); ?>">
+    <!-- alpine js -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 
 <body>
     <!-- nav -->
     <nav class="container-fluid">
         <div class="row align-items-center">
-            <div class="col p-2">
+            <div class="p-2 col">
                 <!-- logo -->
                 <a href="<?php echo site_url('/'); ?>" title="Início" target="_self">
                     <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="CIGBurguer Logo">
                 </a>
             </div>
-            <div class="col p-3 pe-5 d-flex flex-row justify-content-end">
+            <div class="flex-row p-3 col pe-5 d-flex justify-content-end">
                 <a class="nav-link ms-5" href="<?php echo site_url('/'); ?>" target="_self" title="internal link">
                     Início
                 </a>
@@ -49,12 +51,12 @@
     <main>
         <section class="container product-box">
             <div class="row">
-                <div class="col-5 text-center mb-2">
+                <div class="mb-2 text-center col-5">
                     <img  class="img-fluid rounded-4" src="<?php echo base_url('assets/images/room.jpg'); ?>" alt="Our room">
                 </div>
                 <div class="col-6">
 
-                    <p class="where-we-are-title mb-0">
+                    <p class="mb-0 where-we-are-title">
                         CIGBurger
                     </p>
                     <p class="where-we-are-subtitle">
@@ -64,14 +66,14 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quibusdam illo suscipit quidem repudiandae, perspiciatis iste doloremque. Impedit porro eos quisquam, earum ipsum praesentium iusto a odit ducimus et velit?
                     </p>
 
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="mb-3 d-flex align-items-center">
                         <img src="<?php echo base_url('assets/images/icon_phone.png'); ?>" alt="Phone">
                         <p class="where-we-are-subtitle ms-3">
                             <a class="nav-link" href="tel:+559999999999"> (33) 9 9999-9999 </a>
                         </p>
                     </div>
 
-                    <div class="d-flex align-items-center mb-3">
+                    <div class="mb-3 d-flex align-items-center">
                         <img src="<?php echo base_url('assets/images/icon_email.png'); ?>" alt="Email">
                         <p class="where-we-are-subtitle ms-3">
                             <a class="nav-link" href="mailto:">cigbuger@gmail.com</a>
@@ -82,9 +84,9 @@
         </section>
 
         <!-- map -->
-        <section class="container product-box py-5">
+        <section class="container py-5 product-box">
             <div class="col">
-                <div class="col text-center">
+                <div class="text-center col">
                     <img class="img-fluid rounded-4" src="<?php echo base_url('assets/images/map.jpg'); ?>" alt="map">
                 </div>
             </div>
@@ -94,8 +96,8 @@
     <!-- social networks -->
     <footer class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-6 d-flex flex-row justify-content-center">
-                <div class="text-center mx-4">
+            <div class="flex-row col-6 d-flex justify-content-center">
+                <div class="mx-4 text-center">
                     <a href="http://face" title="Facebook" target="_blank">
                         <img src="<?php echo base_url('assets/images/facebook.png'); ?>" alt="Facebook">
                     </a>
@@ -108,8 +110,8 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col text-center">
+        <div class="mt-4 row">
+            <div class="text-center col">
                 <h6>
                     Todos os Direitos Reservados &copy; <?php echo date('Y'); ?>
                 </h6>
