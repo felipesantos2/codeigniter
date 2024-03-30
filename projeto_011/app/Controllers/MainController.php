@@ -28,4 +28,9 @@ class MainController extends BaseController
 
         return view('pagina_3', $data);
     }
+
+    public function metodo_3($id)
+    {
+        return view('pagina_3', ['id' => $id]);
+    }
 }

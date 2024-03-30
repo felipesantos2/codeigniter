@@ -1,0 +1,8 @@
+CRITICAL - 2024-03-30 00:04:14 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\laragon\www\codeigniter\projeto_011\app\Controllers\MainController.php on line 34
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\MainController.php(34): view('pagina_3', '2')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\MainController->metodo_3('2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\codeigniter\\projeto_011\\public\\index.php')

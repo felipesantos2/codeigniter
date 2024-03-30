@@ -17,3 +17,5 @@ $routes->get('/pagina_3/(:any)', 'MainController::pagina_3/$1');
 $routes->get('/pagina_3', function () {
     echo 'Felipe';
 });
+
+$routes->get('/metodo_3/(:num)', 'MainController::metodo_3/$1');
