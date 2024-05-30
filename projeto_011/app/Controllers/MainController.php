@@ -20,6 +20,7 @@ class MainController extends BaseController
     public function where_we_are()
     {
         return view('where_we_are', ['title' => 'Where We Are']);
+    
     }
 
     public function pagina_3($id)
